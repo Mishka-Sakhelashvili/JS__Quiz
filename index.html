@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="wrapper">
+
+        <header>
+          <img src="./img/logo.png" alt="Quiz" />
+        </header>
+
+        <main>
+          <form id="formStart">
+            <label>
+              Select Category:
+              <select id="category"></select>
+            </label>
+            <label>
+              Select Difficulty:
+              <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </label>
+            <label>
+              Click To Start:
+              <button type="submit" disabled>Start</button>
+            </label>
+          </form>
+
+          <form id="formQuestions">
+            <div id="questionContainer"></div>
+            <label>
+              Click To Finish:
+              <button type="submit">Finish</button>
+            </label>
+          </form>
+
+          <form id="formResult">
+            <div id="resultTotal">Total Question: <span></span></div>
+            <div id="resultCorrect">Correct Answers: <span></span></div>
+            <div id="resultInCorrect">Incorrect Answers: <span></span></div>
+            <label>
+              Click To Restart:
+              <button type="submit">Restart</button>
+            </label>
+          </form>
+        </main>
+
+        <footer>Copyright © 2020</footer>
+
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
