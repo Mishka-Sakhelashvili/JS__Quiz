@@ -7,10 +7,6 @@
 <h1> 👉 <a href="https://mishka-sakhelashvili.github.io/JS__Quiz/">  View Demo  </a></h1>
 
 <hr />
-<h2><i>Desc: </i></h2>
-<p> Quiz App </p>
-
-<hr />
 <h2><i>Used Technologies: </i></h2>
 <p>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
